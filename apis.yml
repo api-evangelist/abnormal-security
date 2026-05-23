@@ -1,0 +1,126 @@
+aid: abnormal-security
+url: https://raw.githubusercontent.com/api-evangelist/abnormal-security/refs/heads/main/apis.yml
+name: Abnormal Security
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Cybersecurity
+- Email Security
+- Account Takeover
+- Behavioral AI
+- SaaS Security
+- Phishing
+- BEC
+description: Abnormal Security (operating under the abnormal.ai brand) is an AI-native email and SaaS security platform that
+  uses behavioral AI to model normal communication and identity behavior, then detect socially engineered email attacks,
+  business email compromise, vendor email compromise, and account takeovers across Microsoft 365, Google Workspace, Slack,
+  Zoom, and Microsoft Teams. The Behavior Platform is paired with AI Security Agents (AI Security Mailbox, AI Phishing Coach,
+  AI Data Analyst) and exposes a gated REST API at api.abnormalplatform.com for SOC, SIEM, SOAR, and ticketing integrations.
+  4,500+ customers including 25% of the Fortune 500; named a 2024 Gartner Magic Quadrant Leader for Email Security Platforms.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: abnormal-security:abnormal-security-api
+  name: Abnormal Security Platform API
+  tags:
+  - Threats
+  - Cases
+  - Abuse Mailbox
+  - Account Takeover
+  - Behavior Platform
+  humanURL: https://portal.abnormalsecurity.com
+  baseURL: https://api.abnormalplatform.com
+  properties:
+  - url: https://portal.abnormalsecurity.com
+    type: Portal
+    title: Abnormal Security Portal (gated)
+  - url: https://abnormal.ai/products
+    type: Documentation
+    title: Abnormal Security Products Overview
+  description: The Abnormal Security Platform REST API at api.abnormalplatform.com gives customers and integration partners
+    programmatic access to detected threats, attack cases, abuse mailbox submissions, account takeover events, and security
+    posture findings produced by the Abnormal Behavior Platform. The API is commonly used to forward attack data into SIEMs,
+    drive SOAR playbooks, and integrate Abnormal into ticketing and incident workflows. Documentation and API credentials
+    are provisioned through the Abnormal customer portal.
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/abnormal-security
+- type: Website
+  url: https://abnormal.ai/
+- type: Portal
+  url: https://portal.abnormalsecurity.com
+  title: Abnormal Security Customer Portal
+- type: Documentation
+  url: https://abnormal.ai/products
+- type: Blog
+  url: https://abnormal.ai/blog
+- type: Resources
+  url: https://abnormal.ai/resources
+- type: ContactSales
+  url: https://abnormal.ai/contact
+- type: Careers
+  url: https://abnormal.ai/careers
+- type: Partners
+  url: https://abnormal.ai/partners
+- type: PrivacyPolicy
+  url: https://abnormal.ai/privacy
+- type: TermsOfService
+  url: https://abnormal.ai/terms
+- type: Features
+  data:
+  - name: Behavior Platform
+    description: AI-native platform that models normal email and identity behavior to detect socially engineered attacks
+  - name: Inbound Email Security
+    description: Autonomous AI defense against phishing, BEC, vendor email compromise, and other inbound email attacks
+  - name: Account Takeover Protection
+    description: Detection and mitigation of account takeovers across email and identity platforms
+  - name: Security Posture Management
+    description: Detection of Microsoft 365 misconfigurations before attackers can exploit them
+  - name: Email Productivity
+    description: Personalized graymail filtering to reduce inbox noise without compromising security
+  - name: Misdirected Email Prevention
+    description: Detect and prevent emails sent to the wrong recipient before data is exposed
+  - name: AI Security Mailbox
+    description: AI agent that responds to user-reported emails and coaches users at superhuman speed
+  - name: AI Phishing Coach
+    description: Hyper-personalized security training that reduces phishing susceptibility
+  - name: AI Data Analyst
+    description: Natural-language security reporting that produces board-ready insights
+  - name: SaaS Account Takeover Protection
+    description: Account takeover protection for SaaS applications such as Slack and Zoom
+  - name: Messaging Security
+    description: Detection of malicious content inside Microsoft Teams
+- type: UseCases
+  data:
+  - name: BEC and Phishing Defense
+    description: Stop business email compromise, phishing, and vendor email compromise on Microsoft 365 and Google Workspace
+  - name: Account Takeover Response
+    description: Detect and respond to compromised email and SaaS accounts in near-real time
+  - name: SOC Automation
+    description: Use AI Security Agents to triage user-reported emails and automate SOC workflows
+  - name: Security Posture Hardening
+    description: Continuously identify and remediate Microsoft 365 misconfigurations
+  - name: Executive Reporting
+    description: Use the AI Data Analyst to deliver board-ready security reporting through natural-language queries
+- type: Integrations
+  data:
+  - name: Microsoft 365
+    description: Native API-based integration with Microsoft 365 for email and identity protection
+  - name: Google Workspace
+    description: Native API-based integration with Google Workspace email and identity surfaces
+  - name: Microsoft Teams
+    description: Messaging security integration with Microsoft Teams
+  - name: Slack
+    description: SaaS account takeover protection for Slack workspaces
+  - name: Zoom
+    description: SaaS account takeover protection for Zoom accounts
+  - name: SIEM
+    description: REST API forwarding of detected threats and cases into Splunk, Sentinel, Chronicle, and similar SIEMs
+  - name: SOAR
+    description: Bidirectional integrations with Cortex XSOAR, Splunk SOAR, Tines, and other SOAR platforms
+  - name: ITSM
+    description: Ticketing integrations with ServiceNow, Jira, and other ITSM tools
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
