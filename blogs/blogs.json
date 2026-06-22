@@ -4,18 +4,11 @@
     {
       "source": "https://abnormal.ai/blog",
       "feed_url": "https://abnormal.ai/blog",
-      "title": "",
+      "title": "Abnormal AI Blog",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://abnormal.ai/products",
-      "feed_url": "https://abnormal.ai/products",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "method": "html-scrape"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-21T17:00:00Z"
 }
