@@ -44,6 +44,10 @@ apis:
     drive SOAR playbooks, and integrate Abnormal into ticketing and incident workflows. Documentation and API credentials
     are provisioned through the Abnormal customer portal.
 common:
+- type: TrustCenter
+  url: security/abnormal-security-trust-center.yml
+- type: DomainSecurity
+  url: security/abnormal-security-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/abnormal-security
 - type: Website
