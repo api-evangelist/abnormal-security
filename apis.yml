@@ -31,7 +31,7 @@ description: Abnormal Security (operating under the abnormal.ai brand) is an AI-
   4,500+ customers including 25% of the Fortune 500; named a 2024 Gartner Magic Quadrant Leader for Email Security Platforms.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: abnormal-security:abnormal-security-api
   name: Abnormal Security Platform API
