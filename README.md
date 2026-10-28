@@ -1,4 +1,4 @@
-# abnormal-security
+# Abnormal Security
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Abnormal Security — AI-native email security + account takeover defense
+Abnormal Security (operating under the abnormal.ai brand) is an AI-native email and SaaS security platform that uses behavioral AI to model normal communication and identity behavior, then detect socially engineered email attacks, business email compromise, vendor email compromise, and account takeovers across Microsoft 365, Google Workspace, Slack, Zoom, and Microsoft Teams. The Behavior Platform is paired with AI Security Agents (AI Security Mailbox, AI Phishing Coach, AI Data Analyst) and exposes a gated REST API at api.abnormalplatform.com for SOC, SIEM, SOAR, and ticketing integrations. 4,500+ customers including 25% of the Fortune 500; named a 2024 Gartner Magic Quadrant Leader for Email Security Platforms.
+
+**Areas:** Cybersecurity · Email Security · Account Takeover · Behavioral AI · SaaS Security · Phishing · BEC
+
+## Abnormal Security on APIs.io
+
+Everything profiled for Abnormal Security is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/abnormal-security/](https://apis.io/providers/abnormal-security/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Abnormal Security Platform API](https://apis.io/apis/abnormal-security/abnormal-security-api/) — The Abnormal Security Platform REST API at api.abnormalplatform.com gives customers and integration partners programmatic access to detected threats, attack…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Abnormal Security Domain Security](https://apis.io/security/abnormal-security/abnormal-security-domain-security/)
+- [Abnormal Security Trust Center](https://apis.io/security/abnormal-security/abnormal-security-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Abnormal Security Plans Pricing](https://apis.io/plans/abnormal-security/abnormal-security-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Abnormal Security Rate Limits](https://apis.io/rate-limits/abnormal-security/abnormal-security-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Abnormal Security Finops](https://apis.io/finops/abnormal-security/abnormal-security-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://abnormal.ai/)
+- [Documentation](https://abnormal.ai/products)
+- [Blog](https://abnormal.ai/blog)
+- [Terms of service](https://abnormal.ai/terms)
+- [Privacy policy](https://abnormal.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 16.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/abnormal-security/](https://apis.io/providers/abnormal-security/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Abnormal Security: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/abnormal-security/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
